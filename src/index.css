@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  font-family: Satoshi, sans-serif;
+}
+
+@theme {
+  --font-display: "Inter", sans-serif;
+  /* Add overrides if needed */
+}
+
+/* @layer components {
+  .radial-top-right {
+    @apply absolute top-0 right-0 w-[500px] h-[500px] pointer-events-none z-0;
+    background: radial-gradient(
+      circle at top right,
+      rgba(127, 29, 29, 0.8),
+      transparent 70%
+    );
+  }
+} */
