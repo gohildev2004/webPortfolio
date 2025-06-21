@@ -20,7 +20,7 @@ const Hero = () => {
       <div className="text-center lg:text-right mb-10">
         <div className="inline-block overflow-hidden md-h-auto">
           <img
-            src="public/photo.png" // ✅ Use public folder: place image in /public
+            src="/photo.png" // ✅ Use public folder: place image in /public
             alt="Dev Gohil"
             className="md:w-sm md:h-sm object-cover"
           />
@@ -34,7 +34,7 @@ const Hero = () => {
         className="group absolute hidden lg:block bottom-10 animate-bounce p-10 rounded-full border border-white hover:bg-white transition duration-300"
       >
         <img
-          src="public/downArrow.svg" // ✅ Also use public folder
+          src="/downArrow.svg" // ✅ Also use public folder
           alt="Scroll down"
           className="w-6 h-6 invert group-hover:invert-0 transition duration-300"
         />
