@@ -6,6 +6,7 @@ import BottomNav from "./components/bottomNav";
 import MyWork from "./components/work";
 import Experience from "./components/experience";
 import Connect from "./components/connect";
+import MobileBottomNav from "./components/mobileBottomNav";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,6 +18,9 @@ function App() {
         <About />
         <div className="hidden md:block">
           <BottomNav />
+        </div>
+        <div className="md:hidden">
+          <MobileBottomNav />
         </div>
         <Experience />
         <MyWork />

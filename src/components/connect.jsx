@@ -12,7 +12,7 @@ const Connect = () => {
   ];
 
   return (
-    <section className="section mt-20">
+    <section id="contact" className="section my-20">
       <div className="border-b border-b-[#2a2a2a] mb-10 md:mb-20"></div>
       <p className="section_title">LET'S CONNECT!</p>
       <p className="mt-5 md:mt-10 text-lg md:text-2xl mb-10 md:mb-20">
