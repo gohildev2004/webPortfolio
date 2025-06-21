@@ -49,7 +49,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="min-h-screen bg-black text-white md:pt-20 max-md:pt-30"
+      className="min-h-screen bg-black text-white md:pt-30 max-md:mt-50"
     >
       <h2 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold">
         EXPERIENCE
