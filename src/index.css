@@ -14,6 +14,20 @@ body {
   /* Add overrides if needed */
 }
 
+@layer components {
+  .about_section {
+    @apply bg-black text-white md:py-20;
+  }
+
+  .section {
+    @apply bg-black text-white md:py-20;
+  }
+
+  .section_title {
+    @apply text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold;
+  }
+}
+
 /* @layer components {
   .radial-top-right {
     @apply absolute top-0 right-0 w-[500px] h-[500px] pointer-events-none z-0;

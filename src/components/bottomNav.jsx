@@ -14,7 +14,7 @@ const BottomNav = () => {
             href="#about"
             className=" text-[#888888] hover:text-white font-medium"
           >
-            About Me
+            About
           </a>
           <span className="text-gray-600">|</span>
           <a
@@ -28,7 +28,7 @@ const BottomNav = () => {
             href="#work"
             className=" text-[#888888] hover:text-white font-medium"
           >
-            My work
+            Work
           </a>
           <span className="text-gray-600">|</span>
           <a

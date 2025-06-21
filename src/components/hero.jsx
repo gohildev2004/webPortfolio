@@ -2,32 +2,39 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen overflow-hidden bg-black text-white flex justify-between items-start">
-      <div className="text-start mr-50">
-        <div className="text-9xl font-bold mb-10">SOFTWARE DEVELOPER</div>
-        <div className="text-3xl leading-relaxed">
-          <p>I'm a Front-End Web Developer & Mobile </p>
+    <section className="min-h-screen bg-black text-white flex flex-col justify-start items-center lg:items-start md:gap-25 lg:flex-row lg:justify-between gap-20 lg:gap-0">
+      {/* Left: Text Block */}
+      <div className="text-center lg:text-left">
+        <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-9xl font-bold mb-6 gap-x-5">
+          <p>SOFTWARE</p>
+          <p>DEVELOPER</p>
+        </h1>
+
+        <div className="text-lg sm:text-xl md:text-2xl leading-relaxed">
+          <p>I'm a Front-End Web Developer & Mobile</p>
           <p>Application Developer based in San Francisco, California</p>
         </div>
       </div>
 
-      <div className="text-right">
-        <div className="">
+      {/* Right: Image Block */}
+      <div className="text-center lg:text-right mb-10">
+        <div className="inline-block overflow-hidden md-h-auto">
           <img
-            src="src/assets/photo.png"
-            alt="photo"
-            className="w-full h-full object-cover z-1"
+            src="public/photo.png" // ✅ Use public folder: place image in /public
+            alt="Dev Gohil"
+            className="md:w-sm md:h-sm object-cover"
           />
         </div>
-        <p className="text-2xl mt-3 relative right-5">- Dev Gohil</p>
+        <p className="text-lg sm:text-xl mt-3">Dev Gohil</p>
       </div>
 
+      {/* Scroll Down Icon */}
       <a
         href="#about"
-        className="group absolute bottom-50  animate-bounce p-10 rounded-full border border-white hover:bg-white transition duration-300"
+        className="group absolute hidden lg:block bottom-10 animate-bounce p-10 rounded-full border border-white hover:bg-white transition duration-300"
       >
         <img
-          src="src/assets/downArrow.svg"
+          src="public/downArrow.svg" // ✅ Also use public folder
           alt="Scroll down"
           className="w-6 h-6 invert group-hover:invert-0 transition duration-300"
         />
@@ -37,38 +44,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-{
-  /* <div
-        className="absolute top-[-10rem] right-[-10rem] w-[600px] h-[600px] rounded-full pointer-events-none z-0"
-        style={{
-          background:
-            "radial-gradient(circle at center, #8B0723 0%, transparent 80%)",
-          filter: "blur(10px)",
-          opacity: 0.8,
-        }}
-      ></div> */
-}
-
-{
-  /* <section className="min-h-screen flex flex-col justify-center px-6 md:px-16 bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 transition-colors duration-300">
-      <div className="max-w-4xl">
-        <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-          Hello, I'm{" "}
-          <span className="text-blue-600 dark:text-blue-400">[Your Name]</span>
-        </h1>
-        <p className="mt-4 text-lg md:text-xl text-gray-700 dark:text-gray-300 max-w-prose">
-          A creative developer crafting elegant solutions with clean code and
-          modern design.
-        </p>
-        <div className="mt-6">
-          <a
-            href="#projects"
-            className="inline-block bg-blue-600 dark:bg-blue-500 hover:bg-blue-700 dark:hover:bg-blue-400 text-white font-medium py-2 px-6 rounded-lg transition"
-          >
-            View My Work
-          </a>
-        </div>
-      </div>
-    </section> */
-}

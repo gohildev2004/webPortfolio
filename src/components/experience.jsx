@@ -49,22 +49,35 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="min-h-screen bg-black text-white px-8 py-24"
+      className="min-h-screen bg-black text-white md:pt-20 max-md:pt-30"
     >
-      <h2 className="text-8xl font-bold">EXPERIENCE</h2>
+      <h2 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold">
+        EXPERIENCE
+      </h2>
 
-      <div className="ml-40 mt-10">
+      <div className="lg:ml-40 mt-10">
         {experiences.map((experience) => (
-          <div className="border-b border-b-[#2a2a2a]">
+          <div key={experience.id} className="border-b border-b-[#2a2a2a]">
             <div
               key={experience.id}
-              className="grid grid-cols-[auto_4fr_1fr_1fr_auto] items-center py-10 gap-x-4"
+              className="grid grid-cols-3 md:grid-cols-[auto_4fr_1fr_1fr_auto] items-center py-10 gap-x-4"
             >
-              <h2 className="text-[25px] font-light">0{experience.id}.</h2>
-              <h1 className="text-4xl">{experience.title}</h1>
-              <p className="text-[18px] font-light">{experience.year}</p>
-              <p className="text-[18px] font-light">{experience.company}</p>
-              <button className="" onClick={() => toggleExpand(experience.id)}>
+              <h2 className="text-[25px] hidden md:block font-light">
+                0{experience.id}.
+              </h2>
+              <h1 className="md:text-4xl max-md:col-span-2 max-md:font-semibold">
+                {experience.title}
+              </h1>
+              <p className="text-[18px] font-light max-md:text-end">
+                {experience.year}
+              </p>
+              <p className="max-md:text-[16px] text-[18px] font-light">
+                {experience.company}
+              </p>
+              <button
+                className="hidden md:block"
+                onClick={() => toggleExpand(experience.id)}
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className={`w-5 h-5 transition-transform duration-300 ${
