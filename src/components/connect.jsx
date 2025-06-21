@@ -23,7 +23,7 @@ const Connect = () => {
         or{" "}
         <u>
           <a href="https://www.linkedin.com/in/gohildev">connect to LinkedIn</a>
-        </u>
+        </u>{" "}
         and, let’s discuss how I can help you.
       </p>
 
