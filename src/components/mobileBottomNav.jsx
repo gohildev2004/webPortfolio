@@ -8,7 +8,7 @@ import {
 } from "react-icons/fi";
 
 const navItems = [
-  { name: "Home", icon: <FiHome />, href: "#home" },
+  { name: "Home", icon: <FiHome />, href: "#" },
   { name: "About", icon: <FiUser />, href: "#about" },
   { name: "Work", icon: <FiMonitor />, href: "#work" },
   { name: "Experience", icon: <FiAward />, href: "#experience" },
