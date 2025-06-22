@@ -22,9 +22,9 @@ const Connect = () => {
         </u>{" "}
         or{" "}
         <u>
-          <a href="https://www.linkedin.com/in/gohildev">connect to LinkedIn</a>
+          <a href="https://www.linkedin.com/in/gohildev">connect on LinkedIn</a>
         </u>{" "}
-        and, let’s discuss how I can help you.
+        and let’s discuss how I can help you.
       </p>
 
       <div className="border-b border-b-[#2a2a2a]"></div>
