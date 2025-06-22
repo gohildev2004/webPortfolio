@@ -30,13 +30,13 @@ const BottomNav = () => {
           >
             Work
           </a>
-          {/* <span className="text-gray-600">|</span>
+          <span className="text-gray-600">|</span>
           <a
-            href="#reviews"
+            href="#contact"
             className=" text-[#888888] hover:text-white font-medium"
           >
-            Reviews
-          </a> */}
+            Connect
+          </a>
         </div>
       </div>
     </div>
