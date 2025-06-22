@@ -10,23 +10,33 @@ const MyWork = () => {
         <p>DISCOVER</p>
         <p>MY WORK</p>
       </div>
-      <div className="grid md:grid-cols-2 lg:ml-20 mt-20 flex-col gap-20">
-        <div>
-          <div className="bg-green-500 h-100"></div>
-          <p className="mt-3">UniMate</p>
+      <div className="grid md:grid-cols-2 lg:ml-20 mt-20 gap-20">
+        <div className="">
+          <div className="work_card">
+            <img src="/LiNGUiD_Logo.svg" alt="Dev Gohil" className="" />
+          </div>
+          <div className="work_card_title">
+            <div className="bg-yellow-300 work_card_status"></div>
+            <p className="ml-3">LiNGUiD</p>
+          </div>
         </div>
-        <div>
-          <div className="bg-green-600 h-100"></div>
-          <p className="mt-3">LiNGUiD</p>
+        <div className="">
+          <div className="work_card">
+            <img src="/UniMate_Logo.svg" alt="Dev Gohil" className="" />
+          </div>
+          <div className="work_card_title">
+            <div className="bg-green-500 work_card_status"></div>
+            <p className="ml-3">UniMate</p>
+          </div>
         </div>
-        <div>
-          <div className="bg-green-500 h-100"></div>
+        {/* <div>
+          <div className="bg-white h-100"></div>
           <p className="mt-3">Work 3</p>
         </div>
         <div>
-          <div className="bg-green-600 h-100"></div>
+          <div className="bg-white h-100"></div>
           <p className="mt-3">Work 4</p>
-        </div>
+        </div> */}
       </div>
     </section>
   );

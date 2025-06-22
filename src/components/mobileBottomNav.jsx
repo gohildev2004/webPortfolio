@@ -10,8 +10,8 @@ import {
 const navItems = [
   { name: "Home", icon: <FiHome />, href: "#" },
   { name: "About", icon: <FiUser />, href: "#about" },
-  { name: "Work", icon: <FiMonitor />, href: "#work" },
   { name: "Experience", icon: <FiAward />, href: "#experience" },
+  { name: "Work", icon: <FiMonitor />, href: "#work" },
   { name: "Contact", icon: <FiMessageCircle />, href: "#contact" },
 ];
 

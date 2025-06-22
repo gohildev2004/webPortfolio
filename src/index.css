@@ -26,6 +26,18 @@ body {
   .section_title {
     @apply text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold;
   }
+
+  .work_card{
+    @apply flex justify-center p-20 md:p-10 rounded-2xl bg-white h-100;
+  }
+
+  .work_card_title{
+    @apply flex justify-center items-center mt-3;
+  }
+
+  .work_card_status{
+    @apply w-[10px] h-[10px] rounded-full;
+  }
 }
 
 /* @layer components {
