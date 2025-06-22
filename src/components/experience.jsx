@@ -4,39 +4,39 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      title: "Web Developer",
-      year: 2012,
-      company: "Microsoft",
+      title: "Front End Developer",
+      year: "2021",
+      company: "Vardaam",
       website: "microsoft.com",
       description:
-        "Worked on developing scalable front-end interfaces using HTML, CSS, and JavaScript. Collaborated with backend teams to integrate APIs and improve performance across Microsoft web applications.",
+        "Designed and developed across-platform mobile application that have active users within the first month of launch for private company. Utilized state management techniques to create responsive and reactive user interface.\nBuilt strong experience of Flutter development, HTML, Tailwind CSS, React JS",
     },
     {
       id: 2,
-      title: "Front End Developer",
-      year: 2018,
-      company: "Apple",
+      title: "Flutter Developer",
+      year: 2022,
+      company: "Vardaam",
       website: "apple.com",
       description:
-        "Designed and implemented pixel-perfect UI components using React and TypeScript. Focused on building responsive and accessible design systems used across Apple’s product pages.",
+        "As a Flutter Developer, I built cross-platform apps using Dart, creating responsive UIs and integrating Firebase and REST APIs for real-time features. I used state management tools like Provider and Getx, optimized performance, and handled full app lifecycles—from development to deployment. This experience strengthened my skills in mobile architecture, backend integration, and agile workflows.",
     },
     {
       id: 3,
-      title: "Senior Developer",
-      year: 2020,
-      company: "Tesla",
+      title: "IOS App Developer",
+      year: 2025,
+      company: "LiNGUiD",
       website: "tesla.com",
       description:
-        "Led a team of engineers in developing internal dashboard tools. Optimized application load times, mentored junior developers, and drove initiatives around code quality and deployment.",
+        "While developing the LiNGUiD app in Swift, I learned how to build a custom video player using AVQueuePlayer and AVPlayerLooper for seamless media playback. I integrated Firestore to retrieve and display real-time caption data, which taught me how to work with asynchronous data streams and overlay dynamic subtitles on video content. This project deepened my understanding of SwiftUI, reactive UI updates, and advanced multimedia handling, while also improving my skills in managing data synchronization, user experience, and clean architectural design.",
     },
     {
       id: 4,
-      title: "Product Manager",
-      year: 2023,
-      company: "Twitter",
+      title: "Orientation Leader",
+      year: 2025,
+      company: "SF State",
       website: "twitter.com",
       description:
-        "Defined product vision and roadmaps for creator monetization tools. Coordinated cross-functional efforts between engineering, design, and marketing to deliver features on time and at scale.",
+        "As an Orientation Leader, I developed strong leadership, public speaking, and interpersonal communication skills by guiding new students through their transition to university life. I learned welcoming environments, manage group dynamics, and handle on-the-spot problem-solving with empathy and professionalism. This role strengthened my ability to collaborate with diverse teams, lead with confidence, and represent the university with enthusiasm and integrity.",
     },
   ];
 
@@ -66,7 +66,7 @@ const Experience = () => {
                 0{experience.id}.
               </h2>
               <h1 className="md:text-4xl max-md:col-span-2 max-md:font-semibold">
-                {experience.title}
+                {experience.title}{" "}
               </h1>
               <p className="text-[18px] font-light max-md:text-end">
                 {experience.year}

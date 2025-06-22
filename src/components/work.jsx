@@ -13,11 +13,11 @@ const MyWork = () => {
       <div className="grid md:grid-cols-2 lg:ml-20 mt-20 flex-col gap-20">
         <div>
           <div className="bg-green-500 h-100"></div>
-          <p className="mt-3">Work 1</p>
+          <p className="mt-3">UniMate</p>
         </div>
         <div>
           <div className="bg-green-600 h-100"></div>
-          <p className="mt-3">Work 2</p>
+          <p className="mt-3">LiNGUiD</p>
         </div>
         <div>
           <div className="bg-green-500 h-100"></div>
