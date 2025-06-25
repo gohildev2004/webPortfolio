@@ -20,15 +20,15 @@ const Experience = () => {
       description:
         "As a Flutter Developer, I built cross-platform apps using Dart, creating responsive UIs and integrating Firebase and REST APIs for real-time features. I used state management tools like Provider and Getx, optimized performance, and handled full app lifecycles—from development to deployment. This experience strengthened my skills in mobile architecture, backend integration, and agile workflows.",
     },
-    {
-      id: 3,
-      title: "IOS App Developer",
-      year: 2025,
-      company: "LiNGUiD",
-      website: "tesla.com",
-      description:
-        "While developing the LiNGUiD app in Swift, I learned how to build a custom video player using AVQueuePlayer and AVPlayerLooper for seamless media playback. I integrated Firestore to retrieve and display real-time caption data, which taught me how to work with asynchronous data streams and overlay dynamic subtitles on video content. This project deepened my understanding of SwiftUI, reactive UI updates, and advanced multimedia handling, while also improving my skills in managing data synchronization, user experience, and clean architectural design.",
-    },
+    // {
+    //   id: 3,
+    //   title: "IOS App Developer",
+    //   year: 2025,
+    //   company: "LiNGUiD",
+    //   website: "tesla.com",
+    //   description:
+    //     "While developing the LiNGUiD app in Swift, I learned how to build a custom video player using AVQueuePlayer and AVPlayerLooper for seamless media playback. I integrated Firestore to retrieve and display real-time caption data, which taught me how to work with asynchronous data streams and overlay dynamic subtitles on video content. This project deepened my understanding of SwiftUI, reactive UI updates, and advanced multimedia handling, while also improving my skills in managing data synchronization, user experience, and clean architectural design.",
+    // },
     {
       id: 4,
       title: "Orientation Leader",
