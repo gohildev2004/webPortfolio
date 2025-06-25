@@ -4,7 +4,7 @@ const MyWork = () => {
   return (
     <section
       id="work"
-      className="min-h-screen bg-black text-white lg:py-20 max-md:pt-30"
+      className="min-h-screen bg-black text-white md:mt-30 lg:py-20 max-md:pt-30"
     >
       <div className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold">
         <p>DISCOVER</p>
